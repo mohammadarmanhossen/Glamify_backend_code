@@ -31,8 +31,8 @@ class PaymentViewSet(viewsets.ViewSet):
 
         user_id = request.data.get('user')
         orderitem_id = request.data.get("orderitem_id")
-        email = request.data.get('email')
-        name = request.data.get("name")
+        # email = request.data.get('email')
+        # name = request.data.get("name")
         total_amount = request.data.get('total_amount')
 
         user = None
@@ -60,8 +60,8 @@ class PaymentViewSet(viewsets.ViewSet):
             'fail_url': "https://glamify-backend-code.onrender.com/payment/failed/",
             'cancel_url': "https://glamify-backend-code.onrender.com/payment/cancel/",
             'emi_option': 0,
-            'cus_name': name,
-            'cus_email': email,
+            'cus_name': "arman",
+            'cus_email': "arman@gmail.com",
             'cus_phone': "1908349238",
             'cus_add1': "Mirpur, Dhaka",
             'cus_city': "Dhaka",
