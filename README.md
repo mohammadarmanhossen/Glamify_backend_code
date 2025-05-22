@@ -4,7 +4,7 @@
 Glamify is a feature-rich e-commerce web application built with Django REST Framework, offering a smooth and secure online shopping experience. From user authentication to product management, order tracking, and secure payments — Glamify is designed to handle every aspect of a modern online store.
 
 - **Glamify Frontend Live Site:** [Glamify Frontend](https://glamify-frontend-site.netlify.app/)
-- **Glamify Backend Live Site:** [Glamfiy Backend](https://glamify-backend-tp2c.onrender.com/)
+- **Glamify Backend Live Site:** [Glamfiy Backend](https://glamify-backend-code.onrender.com/)
 - **Glamify Frontend GitHub:** [github.com/mohammadarmanhossen/Glamify_frontend](https://github.com/mohammadarmanhossen/Glamify_frontend)
 - **Glamify Backend GitHub:** [github.com/mohammadarmanhossen/Glamify_backend](https://github.com/mohammadarmanhossen/Glamify_backend)
 
@@ -44,7 +44,7 @@ Password: Arman404@
 
 
 - **Frontend Live Site:** [Glamify Frontend](https://glamify-frontend-site.netlify.app/)
-- **Backend Live Site:** [Glamify Backend](https://glamify-backend-tp2c.onrender.com/)
+- **Backend Live Site:** [Glamify Backend](https://glamify-backend-code.onrender.com/)
 
 ---
 
@@ -55,21 +55,21 @@ Porduct App:
 ---
 Prodcut :
 ```
-https://glamify-backend-tp2c.onrender.com/product/
+https://glamify-backend-code.onrender.com/product/
 
 ```
 Cart :
 ```
-https://glamify-backend-tp2c.onrender.com/cart/
+https://glamify-backend-code.onrender.com/cart/
 ```
 
 Review:
 ```
-https://glamify-backend-tp2c.onrender.com/review/
+https://glamify-backend-code.onrender.com/review/
 ```
 Brand:
 ```
-https://glamify-backend-tp2c.onrender.com/Brand/
+https://glamify-backend-code.onrender.com/Brand/
 ```
 
 
@@ -77,37 +77,37 @@ Account App:
 ---
 User Login :
 ```
-https://glamify-backend-tp2c.onrender.com/account/login/
+https://glamify-backend-code.onrender.com/account/login/
 ```
 User Register :
 ```
-https://glamify-backend-tp2c.onrender.com/account/register/
+https://glamify-backend-code.onrender.com/account/register/
 ```
 
 User Logout:
 ```
-https://glamify-backend-tp2c.onrender.com/account/logout/
+https://glamify-backend-code.onrender.com/account/logout/
 ```
 Admin login:
 ```
-https://glamify-backend-tp2c.onrender.com/account/admin/login/
+https://glamify-backend-code.onrender.com/account/admin/login/
 ```
 Admin logout :
 ```
-https://glamify-backend-tp2c.onrender.com/account/admin/logout/
+https://glamify-backend-code.onrender.com/account/admin/logout/
 ```
 
 User :
 ```
-https://glamify-backend-tp2c.onrender.com/account/user/
+https://glamify-backend-code.onrender.com/account/user/
 ```
 Contact:
 ```
-https://glamify-backend-tp2c.onrender.com/account/contact/
+https://glamify-backend-code.onrender.com/account/contact/
 ```
 Change password:
 ```
-https://glamify-backend-tp2c.onrender.com/account/change_password/${user_id}/
+https://glamify-backend-code.onrender.com/account/change_password/${user_id}/
 ```
 
 
@@ -115,29 +115,29 @@ Payment App:
 ---
 Checkout :
 ```
-https://glamify-backend-tp2c.onrender.com/checkout/
+https://glamify-backend-code.onrender.com/checkout/
 
 ```
 Order :
 ```
-https://glamify-backend-tp2c.onrender.com/orderitem/
+https://glamify-backend-code.onrender.com/orderitem/
 ```
 
 Created Payment:
 ```
-https://glamify-backend-tp2c.onrender.com/payment/create_payment/
+https://glamify-backend-code.onrender.com/payment/create_payment/
 ```
 Payment Success:
 ```
-https://glamify-backend-tp2c.onrender.com/payment/success/
+https://glamify-backend-code.onrender.com/payment/success/
 ```
 Payment Cencel :
 ```
-https://glamify-backend-tp2c.onrender.com/payment/cancel /
+https://glamify-backend-code.onrender.com/payment/cancel /
 ```
 Payment Failed :
 ```
-https://glamify-backend-tp2c.onrender.com/payment/failed /
+https://glamify-backend-code.onrender.com/payment/failed /
 ```
 
 ---
