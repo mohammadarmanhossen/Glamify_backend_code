@@ -94,21 +94,21 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ---
 Prodcut :
 ```
-https://glamify-backend-code.onrender.com/product/
+https://glamify-backend-ten.vercel.app/product/
 
 ```
 Cart :
 ```
-https://glamify-backend-code.onrender.com/cart/
+https://glamify-backend-ten.vercel.app/cart/
 ```
 
 Review:
 ```
-https://glamify-backend-code.onrender.com/review/
+https://glamify-backend-ten.vercel.app/review/
 ```
 Brand:
 ```
-https://glamify-backend-code.onrender.com/Brand/
+https://glamify-backend-ten.vercel.app/Brand/
 ```
 
 
@@ -116,37 +116,37 @@ Account App:
 ---
 User Login :
 ```
-https://glamify-backend-code.onrender.com/account/login/
+https://glamify-backend-ten.vercel.app/account/login/
 ```
 User Register :
 ```
-https://glamify-backend-code.onrender.com/account/register/
+https://glamify-backend-ten.vercel.app/account/register/
 ```
 
 User Logout:
 ```
-https://glamify-backend-code.onrender.com/account/logout/
+https://glamify-backend-ten.vercel.app/account/logout/
 ```
 Admin login:
 ```
-https://glamify-backend-code.onrender.com/account/admin/login/
+https://glamify-backend-ten.vercel.app/account/admin/login/
 ```
 Admin logout :
 ```
-https://glamify-backend-code.onrender.com/account/admin/logout/
+https://glamify-backend-ten.vercel.app/account/admin/logout/
 ```
 
 User :
 ```
-https://glamify-backend-code.onrender.com/account/user/
+https://glamify-backend-ten.vercel.app/account/user/
 ```
 Contact:
 ```
-https://glamify-backend-code.onrender.com/account/contact/
+https://glamify-backend-ten.vercel.app/account/contact/
 ```
 Change password:
 ```
-https://glamify-backend-code.onrender.com/account/change_password/${user_id}/
+https://glamify-backend-ten.vercel.app/account/change_password/${user_id}/
 ```
 
 
@@ -154,29 +154,29 @@ Payment App:
 ---
 Checkout :
 ```
-https://glamify-backend-code.onrender.com/checkout/
+https://glamify-backend-ten.vercel.app/checkout/
 
 ```
 Order :
 ```
-https://glamify-backend-code.onrender.com/orderitem/
+https://glamify-backend-ten.vercel.app/orderitem/
 ```
 
 Created Payment:
 ```
-https://glamify-backend-code.onrender.com/payment/create_payment/
+https://glamify-backend-ten.vercel.app/payment/create_payment/
 ```
 Payment Success:
 ```
-https://glamify-backend-code.onrender.com/payment/success/
+https://glamify-backend-ten.vercel.app/payment/success/
 ```
 Payment Cencel :
 ```
-https://glamify-backend-code.onrender.com/payment/cancel /
+https://glamify-backend-ten.vercel.app/payment/cancel /
 ```
 Payment Failed :
 ```
-https://glamify-backend-code.onrender.com/payment/failed /
+https://glamify-backend-ten.vercel.app/payment/failed /
 ```
 
 ---
