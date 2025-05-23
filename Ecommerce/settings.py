@@ -107,8 +107,7 @@ WSGI_APPLICATION = 'Ecommerce.wsgi.app'
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://glamify-frontend-site.netlify.app",
-    "https://glamify-backend-tp2c.onrender.com",
+    "https://glamify-frontend-site.netlify.app"
 ]
 
 
