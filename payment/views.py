@@ -31,8 +31,6 @@ class PaymentViewSet(viewsets.ViewSet):
 
         user_id = request.data.get('user')
         orderitem_id = request.data.get("orderitem_id")
-        # email = request.data.get('email')
-        # name = request.data.get("name")
         total_amount = request.data.get('total_amount')
 
         user = None
@@ -56,9 +54,9 @@ class PaymentViewSet(viewsets.ViewSet):
             'total_amount': total_amount,
             'currency': "BDT",
             'tran_id': tran_id,
-            'success_url': f"https://glamify-backend-code.onrender.com/payment/success/{orderitem_id}/",
-            'fail_url': "https://glamify-backend-code.onrender.com/payment/failed/",
-            'cancel_url': "https://glamify-backend-code.onrender.com/payment/cancel/",
+            'success_url': f"https://glamify-backend-ten.vercel.app/payment/success/{orderitem_id}/",
+            'fail_url': "https://glamify-backend-ten.vercel.app/payment/failed/",
+            'cancel_url': "https://glamify-backend-ten.vercel.app/payment/cancel/",
             'emi_option': 0,
             'cus_name': "arman",
             'cus_email': "arman@gmail.com",
@@ -95,7 +93,7 @@ class PaymentSuccessAPI(APIView):
         if orderitem_id:
             orderitem_id.is_paid = True
             orderitem_id.save()
-            return redirect("https://glamify-frontend-site.netlify.app/order.html")
+            return redirect("https://glamify-frontend.vercel.app/order.html")
 
         
         return Response({"error": "Order not found"}, status=404)
@@ -106,7 +104,7 @@ class PaymentFailedAPI(APIView):
     permission_classes = [AllowAny]  
 
     def post(self, request):
-        return redirect("https://glamify-frontend-site.netlify.app/order.html")
+        return redirect("https://glamify-frontend.vercel.app/order.html")
 
 
 
@@ -114,7 +112,7 @@ class PaymentCancelAPI(APIView):
     permission_classes = [AllowAny]  
 
     def post(self, request):
-        return redirect("https://glamify-frontend-site.netlify.app/order.html")
+        return redirect("https://glamify-frontend.vercel.app/order.html")
 
 
 

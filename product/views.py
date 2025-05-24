@@ -3,6 +3,13 @@ from .models import Product,Review,Brand
 from .serializers import ProductSerializer,ReviewSerializer,BrandSerializer
 from rest_framework import viewsets, filters
 from django_filters.rest_framework import DjangoFilterBackend
+from django.shortcuts import get_object_or_404
+from django.http import JsonResponse
+from django.http import HttpResponse
+
+def my_view(request):
+    user_agent = request.META.get('HTTP_USER_AGENT', 'unknown')
+    return HttpResponse(f'Your user agent is: {user_agent}')
 
 from rest_framework.permissions import IsAuthenticated
 from .models import Cart
